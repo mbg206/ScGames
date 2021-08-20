@@ -1,5 +1,9 @@
 var games = [
     {
+        "name": "1v1.lol",
+        "id": "1v1lol"
+    },
+    {
         "name": "2048",
         "id": "2048"
     },
@@ -57,7 +61,7 @@ var games = [
     },
     {
         "name": "There Is No Game",
-        "id": "there is no game"
+        "id": "thereisnogame"
     },
     {
         "name": "Worlds Hardest Game ",

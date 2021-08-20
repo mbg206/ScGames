@@ -58,7 +58,14 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
-    padding: 16px;
+    margin: 16px;
+    font-size: min(calc((13vw - 8px) / 8), 32px);
+}
+#fullscreen {
+    position: absolute;
+    left: min(calc((13vw - 8px) / 8), 32px);
+    bottom: 0;
+    margin: 16px;
     font-size: min(calc((13vw - 8px) / 8), 32px);
 }
 h1 {font-size: 48px;}

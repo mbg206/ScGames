@@ -16,9 +16,15 @@
         </div>
 
         <div id="mainArea">
+            <button id="fullscreen" onclick="fullscreen();">Fullscreen</button>
         </div>
 
         <script src="scripts.js"></script>
         <script src="gameloader.js"></script>
+        <script>
+function fullscreen() {
+    document.getElementById('game').requestFullscreen();
+}
+        </script>
     </body>
 </html>

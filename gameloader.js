@@ -112,6 +112,12 @@ var games = {
         "type": "iframe",
         "file": "index.html",
         "credit": "Oleg Kuzyk"
+    },
+    "1v1lol": {
+        "name": "1v1.lol",
+        "type": "iframe",
+        "file": "index.html",
+        "credit": "Lior Alterman"
     }
 };
 
