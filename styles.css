@@ -1,0 +1,68 @@
+body {
+    background-color: gainsboro;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    max-width: 384px;
+    height: 100%;
+    overflow: auto;
+}
+#logo {
+    width: calc(20vw - 8px);
+    max-width: 376px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+#gameButton {
+    font-size: min(calc((13vw - 8px) / 8), 32px);
+    background-color: gray;
+    color: black;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+#gameButton:hover {
+    background-color: lightgray;
+}
+
+#mainArea {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - min(20vw, 384px));
+    height: 100%;
+    overflow: auto;
+}
+#game {
+    border: none;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+}
+#credits {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+    font-size: min(calc((13vw - 8px) / 8), 32px);
+}
+h1 {font-size: 48px;}
+h2 {font-size: 32px;}
+span {font-size: 24px;}
+.logItem {padding-bottom: 32px;}
+.centerText {text-align: center;}
